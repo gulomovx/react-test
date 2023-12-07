@@ -6,6 +6,8 @@ import ImgBg from './components/ImgBg'
 import Honimlar from './components/Honimlar'
 import Erkaklar from './components/Erkaklar'
 import FeatureCards from './components/FeatureCards'
+import VideoPlayer from './components/VideoPlayer'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
@@ -19,9 +21,10 @@ const App = () => {
         <ImgBg />
         <Honimlar />
         <Erkaklar />
-        <FeatureCards/>
+        <FeatureCards />
+        <VideoPlayer/>
       </div>
-
+     <Footer/>
     </div>
   )
 }

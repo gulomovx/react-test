@@ -1,14 +1,21 @@
-import React from 'react'
-import { HiHandThumbUp } from "react-icons/hi2";
+import React from "react";
 
-const FeatureOne = () => {
+const FeatureOne = ({ children, text,padding }) => {
   return (
-      <div>
-          <div className="border">
-              <HiHandThumbUp color='black' className='px-4 py-4 rounded-full bg-red-600 '/>
-          </div>
+    <div className="mt-16">
+      <div className="border-solid border-[25px] w-[300px] h-auto border-slate-300 inline-block text-center p-6">
+        <div className="bg-red-600 rounded-full inline-block p-4 text-white">
+          {children}
+        </div>
+        <div className="text-[28px]">{text} </div>
+        <p className={`${padding && 'my-[40px]'} my-4`}>
+          Lorem ipsum dolor sit amet consectetur. Suspendisse laoreet
+          scelerisque morbi vulputate. Quisque bibendum eget id diam elementum
+          fringilla duis.{" "}
+        </p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default FeatureOne
+export default FeatureOne;
