@@ -6,9 +6,9 @@ const ImgBg = () => {
   return (
     <div className="mt-16 w-full">
       <div className="flex  gap-8">
-        <div className="flex flex-col gap-8 w-[50%] ">
+        <div className="flex flex-col gap-8 w-[50%]  overflow-hidden bg-cover bg-no-repeat ">
           <div
-            className="w-full  backdrop-brightness-50 	 object-cover flex  p-16"
+            className="w-full  backdrop-brightness-50 	 object-cover flex  transition duration-300 ease-in-out hover:scale-110  p-16"
             style={{
               background: `url(${bg1})`,
               backgroundPosition: "center",
@@ -21,7 +21,7 @@ const ImgBg = () => {
             </h1>
           </div>
           <div
-            className="w-full bg backdrop-brightness-50	 object-cover flex  p-16"
+            className="w-full bg backdrop-brightness-50	 object-cover flex  p-16  transition duration-300 ease-in-out hover:scale-110"
             style={{
               background: `url(${bg2})`,
               backgroundPosition: "center",
@@ -34,8 +34,10 @@ const ImgBg = () => {
             </h1>
           </div>
         </div>
+        <div className="relative  overflow-hidden bg-cover bg-no-repeat">
+
         <div
-          className="w-[50%] bg backdrop-brightness-1	 object-cover flex items-center  p-16"
+          className="w-full h-full bg backdrop-brightness-1	 object-cover flex items-center  p-16  transition  duration-300  hover:scale-110"
           style={{
             background: `url(${bg3})`,
             backgroundPosition: "center",
@@ -46,7 +48,9 @@ const ImgBg = () => {
           <h1 className="text-[48px] my-[30px] text-white    ">
             MAXSUS BUYURTMA
           </h1>
+          </div>
         </div>
+          
       </div>
     </div>
   );
