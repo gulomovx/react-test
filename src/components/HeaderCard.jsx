@@ -7,7 +7,7 @@ const HeaderCard = ({ img, id, text, reverse }) => {
     <div className="bg-slate-100 mt-4 ">
       <div className={`flex items-center gap-4 ${reverse && "flex-row-reverse"}`}>
         <img src={img} alt="" />
-        <div className="">
+        <div className="px-4">
           <h1 className="text-2xl">{text}</h1>
           <h1 className="text-2xl my-4">{id}</h1>
           <a href="/" className=" underline">

@@ -6,7 +6,7 @@ const HonimCart = ({ img }) => {
   return (
       <div>
           <div className="relative">
-              <img src={img} alt="" />
+              <img src={img} alt="" className='transition duration-300 ease-in-out hover:scale-110' />
               <span className="bg-red-600 text-white rounded-2xl flex items-center justify-center absolute w-16 top-2 left-60">
                   <FaStar color='yellow'/>
                   4.95</span>
