@@ -15,7 +15,7 @@ const Navbar = () => {
               {/* logo */}
               <img src={logo} alt="" />
               {/* navlinks */}
-              <ul className='flex items-center gap-16'>
+              <ul className='flex items-center gap-16 font-small'>
                   <li>home</li>
                   <li>abot</li>
                   
@@ -28,7 +28,7 @@ const Navbar = () => {
                   {/* input */}
                   <div className="flex items-center gap-2 p-2 bg-white">
                       <IoSearchOutline color='#B6B6B6' size={20}/>
-                      <input className='outline-none w-[214px] text-slate-800' type="text" placeholder='Qidirish'/>
+                      <input className='outline-none font-small w-[214px] text-slate-800' type="text" placeholder='Qidirish'/>
                   </div>
                   {/* icons */}
                   <div className="flex items-center text-white gap-2">

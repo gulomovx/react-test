@@ -11,7 +11,7 @@ import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
-    <div className="w-full">
+    <div className="w-full font-body">
     
 
       <Warning/>

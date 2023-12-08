@@ -5,9 +5,11 @@ const Footer = () => {
     <div className="w-full bg-blue-950">
       <div className="max-w-[1345px] mx-auto py-8 text-white flex items-center justify-between ">
         <div className="">
-          <h1 className="text-5xl mb-8">LOGO</h1>
+          <h1 className="text-5xl mb-4">LOGO</h1>
           {/* manzil, tel, email */}
-          <p className="flex gap-12">
+          <div className="font-small">
+
+          <p className="flex gap-12 font-small">
             Telefon <span>: +998 99 9846647</span>
           </p>
           <p className="flex gap-12">
@@ -19,9 +21,11 @@ const Footer = () => {
               : Farg’ona shaxar Farg’ona ko’chasi 86-uy, Farg’ona viloyati,
               O’zbekiston
             </span>
-          </p>
+            </p>
+          </div>
+            
         </div>
-              <div className=" flex  gap-16">
+              <div className=" flex  gap-16 font-small">
                   {/* links */}
                   <div className="">
                       <p className="font-semibold">Menyu</p>
@@ -55,6 +59,10 @@ const Footer = () => {
                   </div>
         </div>
         <div className="bg-slate-300 w-96 h-64"></div>
+      </div>
+      <div className="text-white text-center font-small py-2 font-light">
+        <h1 className="">Barcha huquqlar himoyalangan</h1>
+        <h1 className="">Copyright {new Date().getFullYear()} By Delta Group</h1>
       </div>
     </div>
   );

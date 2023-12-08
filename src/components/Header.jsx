@@ -44,7 +44,7 @@ const Header = () => {
         </div>
         {/* batafsil button */}
       </div>
-        <p className="text-white flex justify-center items-center text-center gap-2 text-[16px] py-4">BATAFSIL KO’RISH <span className="animate-bounce cursor-pointer">
+        <p className="text-white flex justify-center items-center text-center gap-2 text-[16px] py-4 font-small">BATAFSIL KO’RISH <span className="animate-bounce cursor-pointer">
         <MdKeyboardDoubleArrowDown size={25}/>
         </span></p>
     </div>

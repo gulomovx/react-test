@@ -13,10 +13,10 @@ const Honimlar = () => {
         <h1 className="text-[76px] text-slate-800 ">BIZNES OLAMIDAGI XONIMLAR UCHUN MAXSUS TAKLIFLARIMIZ</h1>
         <div className="flex items-center gap-4 mt-8">
 
-        <HonimCart img={img1}/>
-        <HonimCart img={img2}/>
-        <HonimCart img={img3}/>
-        <HonimCart img={img4}/>
+        <HonimCart img={img1} text='Ayollar uchun'/>
+        <HonimCart img={img2} text='Ayollar uchun'/>
+        <HonimCart img={img3} text='Ayollar uchun'/>
+        <HonimCart img={img4} text='Ayollar uchun'/>
         </div>
         <button className='px-6 group hover:shadow-lg hover:shadow-red-500 duration-300 py-4 bg-red-600 text-white flex items-center gap-2 mt-12'>
           BATAFSIL

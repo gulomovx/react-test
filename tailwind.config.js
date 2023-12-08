@@ -5,7 +5,8 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ], theme: {
     fontFamily: {
-      
+      body: ['Playfair Display'],
+      small:['Lato', 'sans-serif']
     },
     extend: {},
   },

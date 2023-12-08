@@ -13,10 +13,10 @@ const Erkaklar = () => {
         <h1 className="text-[76px] text-slate-800 ">ERKAKLAR UCHUN MAXSUS TAKLIF</h1>
         <div className="flex items-center gap-4 mt-8">
 
-        <HonimCart img={img1}/>
-        <HonimCart img={img2}/>
-        <HonimCart img={img3}/>
-        <HonimCart img={img4}/>
+        <HonimCart img={img1} text='Erkaklar uchun'/>
+        <HonimCart img={img2} text='Erkaklar uchun'/>
+        <HonimCart img={img3} text='Erkaklar uchun'/>
+        <HonimCart img={img4} text='Erkaklar uchun'/>
         </div>
         <button className='px-6 py-4 group hover:shadow-lg hover:shadow-red-500 duration-300 bg-red-600 text-white flex items-center gap-2 mt-6'>
           BATAFSIL
