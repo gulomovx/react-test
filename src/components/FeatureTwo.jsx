@@ -4,7 +4,7 @@ const FeatureTwo = ({ children, text }) => {
   return (
     <div>
       <div className="border-solid border-slate-300 border-[25px] flex gap-4  justify-center p-6">
-        <div className="bg-red-600 rounded-full h-12  p-4 text-white ">
+        <div className="bg-red-600 rounded-full h-12  p-4 text-white hover:scale-110 duration-300">
           {children}
         </div>
         <div className="">

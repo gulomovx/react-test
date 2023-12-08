@@ -8,6 +8,8 @@ import Erkaklar from './components/Erkaklar'
 import FeatureCards from './components/FeatureCards'
 import VideoPlayer from './components/VideoPlayer'
 import Footer from './components/footer/Footer'
+import { IoArrowUpSharp } from "react-icons/io5";
+import ScrollToTop from "react-scroll-to-top";
 
 const App = () => {
   return (
@@ -24,6 +26,9 @@ const App = () => {
         <FeatureCards />
         <VideoPlayer/>
       </div>
+      
+      {/* <div style={{ marginTop: "50vh" }} /> */}
+      <ScrollToTop smooth />
      <Footer/>
     </div>
   )

@@ -4,7 +4,7 @@ const FeatureOne = ({ children, text,padding }) => {
   return (
     <div className="mt-16">
       <div className="border-solid border-[25px] w-[300px] h-auto border-slate-300 inline-block text-center p-6">
-        <div className="bg-red-600 rounded-full inline-block p-4 text-white">
+        <div className="bg-red-600 rounded-full inline-block p-4 text-white hover:scale-110 duration-300">
           {children}
         </div>
         <div className="text-[28px]">{text} </div>

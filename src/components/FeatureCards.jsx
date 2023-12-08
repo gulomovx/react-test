@@ -11,7 +11,7 @@ const FeatureCards = () => {
     <div className="mb-24 flex items-center  gap-8">
       <div className="">
         <FeatureOne text={"Ishimizga 100% javob beramiz   "} padding>
-          <HiHandThumbUp />
+          <HiHandThumbUp className="" />
         </FeatureOne>
       </div>
        <div className="flex flex-col gap-10 mt-16">
