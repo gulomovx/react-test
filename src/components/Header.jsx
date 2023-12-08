@@ -5,6 +5,7 @@ import HeaderCard from "./HeaderCard";
 import headerImg from "../assets/Rectangle 3@2x.svg";
 import header1 from '../assets/header-cart1.svg'
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
+import Navigation from "./Navigation";
 
 const Header = () => {
   return (
@@ -18,7 +19,8 @@ const Header = () => {
       }}
     >
       <div className="py-8 max-w-[1345px] mx-auto">
-        <Navbar />
+        {/* <Navbar /> */}
+        <Navigation/>
         <div className="flex justify-between items-center  pt-[100px]">
           {/* biznes forum va... */}
           <div className="  text-white w-[945px]">

@@ -3,6 +3,8 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    // "./node_modules/flowbite/**/*.js"
+
   ], theme: {
     fontFamily: {
       body: ['Playfair Display'],
@@ -10,6 +12,8 @@ export default {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+
+  
 }
 
