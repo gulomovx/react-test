@@ -13,7 +13,7 @@ const Navigation = () => {
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </div>
       <ul tabIndex={0} className="menu text-slate-800 menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-ba rounded-box w-52">
-        <li><a>Item 1</a></li>
+        <li><a>Saqlash</a></li>
         <li className=''>
           <a>Parent</a>
           <ul className="p-2 text-slate-400 font-small">
@@ -29,20 +29,22 @@ const Navigation = () => {
               <img src={logo} alt="" />
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
+    <ul className="menu menu-horizontal px-1 text-[16px]">
       <li>
         <details>
-          <summary>Parent</summary>
+          <summary>Katalog</summary>
           <ul className="p-2 text-slate-900 w-56">
             <li><a>Erkaklar kostyumlari</a></li>
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
+            <li><a>Ayollar kostyumlari</a></li>
+            <li><a>Maxsus buyurtma </a></li>
+            {/* <li><a>Submenu 2</a></li> */}
           </ul>
         </details>
-      </li>
-      <li><a>Item 3</a></li>
+                  </li>
+      <li><a>Saqlash</a></li>
+                  
+      <li><a>Yetkazib berish</a></li>
+      <li><a>Biz haqimizda</a></li>
     </ul>
   </div>
   <div className="navbar-end gap-4">

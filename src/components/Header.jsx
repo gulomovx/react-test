@@ -24,7 +24,7 @@ const Header = () => {
         <div className="flex justify-between items-center  pt-[100px]">
           {/* biznes forum va... */}
           <div className="  text-white w-[945px]">
-            <p className="text-[16px]">
+            <p className="text-[16px] font-small">
               TURKIYA USLUBIDA AYNAN SIZ UCHUN KASTYUMLAR
             </p>
             <h1 className="text-[76px]">BIZNES FORUM VA MAXSUS TADBIRLAR UCHUN</h1>
